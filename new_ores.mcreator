@@ -388,7 +388,7 @@
       "name": "AmethystGem",
       "type": "item",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "amethyst_gem",
@@ -398,21 +398,11 @@
       "name": "AmberGem",
       "type": "item",
       "sortid": 34,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "amber_gem",
       "path": "~/GemsAmber"
-    },
-    {
-      "name": "TitaniumBlock",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "titanium_block",
-      "path": "~/Titanium"
     },
     {
       "name": "IncionextesDimension",
@@ -426,6 +416,16 @@
         "ep": true
       },
       "path": "~/Dev Items"
+    },
+    {
+      "name": "TitaniumBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_block",
+      "path": "~/Titanium"
     },
     {
       "name": "RubyLighterRightClickedOnBlock",
@@ -465,6 +465,16 @@
       "ids": {},
       "registry_name": "ruby_lighter",
       "path": "~/GemsRuby"
+    },
+    {
+      "name": "SaphireBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphire_block",
+      "path": "~/GemsSaphire"
     }
   ],
   "variable_elements": [],
@@ -509,11 +519,9 @@
       "item.minecraft.lingering_potion.effect.silver_protection": "Lingering Silver Protection",
       "block.new_ores.silver_ore": "Silver Ore",
       "block.new_ores.titanium_ore": "Titanium Ore",
-      "item.new_ores.incionextes_dimension": "Ruby Lighter",
       "item.new_ores.steel_ingot": "Steel Ingot",
       "item.new_ores.compressed_armour_helmet": "Compressed Steel Helmet",
       "advancements.steel_advancement_1.title": "Steel Milestones",
-      "block.new_ores.titanium_block": "Titanium Block",
       "subtitles.steel_manufactoring": "Factory sounds in the distance",
       "item.new_ores.silver_plate": "Silver Plate",
       "item.new_ores.silverish_gold": "Silverish Gold",
@@ -530,7 +538,6 @@
       "item.new_ores.compressed_armour_chestplate": "Compressed Steel Chestplate",
       "item.new_ores.molten_steel_bucket": "MoltenSteel Bucket",
       "biome.new_ores.the_scary_forest": "The Scary Forest",
-      "item.new_ores.ruby_lighter": "Ruby Lighter",
       "item.new_ores.steel_manufacturing": "Steel Manufacturing",
       "advancements.steel_advancement_1.descr": "Make your first steel ingot"
     }
