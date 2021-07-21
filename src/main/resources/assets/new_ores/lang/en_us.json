@@ -1,9 +1,8 @@
 {
   "effect.silver_protection": "Silver Protection",
-  "item.new_ores.compressed_steel": "Compressed Steel",
   "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+  "item.new_ores.compressed_steel": "Compressed Steel",
   "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
-  "advancements.titanium_advancement.descr": "Smelt your first titanium ingot",
   "subtitles.steel_disc_sound": "A factory theme plays",
   "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
   "item.new_ores.saphire_gem": "Saphire Gem",
@@ -33,6 +32,5 @@
   "item.new_ores.molten_steel_bucket": "MoltenSteel Bucket",
   "biome.new_ores.the_scary_forest": "The Scary Forest",
   "item.new_ores.steel_manufacturing": "Steel Manufacturing",
-  "advancements.titanium_advancement.title": "Titans Rule!",
   "advancements.steel_advancement_1.descr": "Make your first steel ingot"
 }
