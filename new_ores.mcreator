@@ -323,6 +323,16 @@
       "ids": {},
       "registry_name": "silverish_gold_crafting",
       "path": "~/Alloys"
+    },
+    {
+      "name": "RubyGem",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_gem",
+      "path": "~/GemsRuby"
     }
   ],
   "variable_elements": [],
@@ -355,8 +365,8 @@
   "language_map": {
     "en_us": {
       "effect.silver_protection": "Silver Protection",
-      "item.new_ores.compressed_steel": "Compressed Steel",
       "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+      "item.new_ores.compressed_steel": "Compressed Steel",
       "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
@@ -377,6 +387,7 @@
       "block.new_ores.steel_block": "Steel Block",
       "item.minecraft.potion.effect.silver_protection": "Silver Protection",
       "item.new_ores.steel_nugget": "Steel Nugget",
+      "item.new_ores.ruby_gem": "Ruby Gem",
       "item.new_ores.silver_ingot": "Silver Ingot",
       "item.new_ores.steel_manufacturing.desc": "Danimal Canon Remix - Factory Theme",
       "item.new_ores.compressed_armour_chestplate": "Compressed Steel Chestplate",
