@@ -139,7 +139,7 @@ public class IncionextesDimensionDimension extends NewOresModElements.ModElement
 	public static class CustomPortalBlock extends NetherPortalBlock {
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
-					.setLightLevel(s -> 15).noDrops());
+					.setLightLevel(s -> 10).noDrops());
 			setRegistryName("incionextes_dimension_portal");
 		}
 

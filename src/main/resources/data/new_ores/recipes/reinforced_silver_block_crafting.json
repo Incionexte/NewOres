@@ -1,0 +1,42 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:steel_screws"
+    },
+    "1": {
+      "item": "new_ores:reinforced_silver_plate"
+    },
+    "2": {
+      "item": "new_ores:steel_screws"
+    },
+    "3": {
+      "item": "new_ores:reinforced_silver_plate"
+    },
+    "4": {
+      "item": "new_ores:silver_block"
+    },
+    "5": {
+      "item": "new_ores:reinforced_silver_plate"
+    },
+    "6": {
+      "item": "new_ores:steel_screws"
+    },
+    "7": {
+      "item": "new_ores:reinforced_silver_plate"
+    },
+    "8": {
+      "item": "new_ores:steel_screws"
+    }
+  },
+  "result": {
+    "item": "new_ores:reinforced_silver_block",
+    "count": 3
+  }
+}

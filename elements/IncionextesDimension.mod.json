@@ -5,14 +5,17 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:TheScaryForest"
+      },
+      {
+        "value": "CUSTOM:SulfuricOcean"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
       "value": "Blocks.CRYING_OBSIDIAN"
     },
     "fluidBlock": {
-      "value": "CUSTOM:MoltenSteel"
+      "value": "CUSTOM:Acid"
     },
     "airColor": {
       "value": -13434880,
@@ -31,11 +34,11 @@
     "portalParticles": {
       "value": "TOTEM"
     },
-    "portalLuminance": 15,
+    "portalLuminance": 10,
     "portalSound": {
       "value": "record.13"
     },
-    "igniterName": "Flint And Steel",
+    "igniterName": "Ruby Dust Spreader",
     "igniterTab": {
       "value": "TOOLS"
     },

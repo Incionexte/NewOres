@@ -1,0 +1,42 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:silver_plate"
+    },
+    "1": {
+      "item": "new_ores:silver_plate"
+    },
+    "2": {
+      "item": "new_ores:silver_plate"
+    },
+    "3": {
+      "item": "new_ores:silver_dust"
+    },
+    "4": {
+      "item": "new_ores:silver_ingot"
+    },
+    "5": {
+      "item": "new_ores:silver_dust"
+    },
+    "6": {
+      "item": "new_ores:silver_plate"
+    },
+    "7": {
+      "item": "new_ores:silver_plate"
+    },
+    "8": {
+      "item": "new_ores:silver_plate"
+    }
+  },
+  "result": {
+    "item": "new_ores:silver_block",
+    "count": 1
+  }
+}

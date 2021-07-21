@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SilverPlate"
+      },
+      {
+        "value": "CUSTOM:SilverPlate"
+      },
+      {
+        "value": "CUSTOM:SilverPlate"
+      },
+      {
+        "value": "CUSTOM:SilverDust"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "CUSTOM:SilverDust"
+      },
+      {
+        "value": "CUSTOM:SilverPlate"
+      },
+      {
+        "value": "CUSTOM:SilverPlate"
+      },
+      {
+        "value": "CUSTOM:SilverPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SilverBlock"
+    },
+    "name": "silver_block_crafting",
+    "namespace": "mod"
+  }
+}
