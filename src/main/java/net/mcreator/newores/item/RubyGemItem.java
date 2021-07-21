@@ -2,13 +2,13 @@
 package net.mcreator.newores.item;
 
 @NewOresModElements.ModElement.Tag
-public class TitaniumIngotItem extends NewOresModElements.ModElement {
+public class RubyGemItem extends NewOresModElements.ModElement {
 
-	@ObjectHolder("new_ores:titanium_ingot")
+	@ObjectHolder("new_ores:ruby_gem")
 	public static final Item block = null;
 
-	public TitaniumIngotItem(NewOresModElements instance) {
-		super(instance, 33);
+	public RubyGemItem(NewOresModElements instance) {
+		super(instance, 32);
 
 	}
 
@@ -21,7 +21,7 @@ public class TitaniumIngotItem extends NewOresModElements.ModElement {
 
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("titanium_ingot");
+			setRegistryName("ruby_gem");
 		}
 
 		@Override
