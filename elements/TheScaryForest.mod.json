@@ -1,0 +1,149 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "The Scary Forest",
+    "groundBlock": {
+      "value": "Blocks.MYCELIUM"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.SOUL_SOIL"
+    },
+    "airColor": {
+      "value": -10092442,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10079488,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3407872,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:scary_forest"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "DRAGON_BREATH"
+    },
+    "particlesProbability": 5.2,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.8,
+    "temperature": 0.2,
+    "baseHeight": 0.9,
+    "heightVariation": 0.4,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 7,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 6,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 4,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 6,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 10,
+    "maxWaterDepth": 4,
+    "treeStem": {
+      "value": "Blocks.CRIMSON_STEM"
+    },
+    "treeBranch": {
+      "value": "Blocks.SOUL_SAND"
+    },
+    "treeVines": {
+      "value": "Blocks.WEB"
+    },
+    "treeFruits": {
+      "value": "Blocks.CHORUS_FLOWER"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": true,
+    "oceanRuinType": "WARM",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "InfestedStone",
+      "TaigaRocks"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 3,
+        "maxGroup": 7,
+        "weight": 38,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntitySilverfish"
+        },
+        "minGroup": 2,
+        "maxGroup": 8,
+        "weight": 28,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityRavager"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 13,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityVindicator"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 8,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityAgeable"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

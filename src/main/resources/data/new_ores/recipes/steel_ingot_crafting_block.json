@@ -1,0 +1,16 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:steel_block"
+    }
+  },
+  "result": {
+    "item": "new_ores:steel_ingot",
+    "count": 9
+  }
+}

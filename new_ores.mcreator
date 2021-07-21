@@ -1,0 +1,453 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SteelIngotCrafting",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot_crafting",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_nugget",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelNuggetCrafting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_nugget_crafting",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelIngorCraftingNugget",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingor_crafting_nugget",
+      "path": "~/Steel"
+    },
+    {
+      "name": "Steel",
+      "type": "painting",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_block",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelBlockCrafting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_block_crafting",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelIngotCraftingBlock",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot_crafting_block",
+      "path": "~/Steel"
+    },
+    {
+      "name": "CompressedSteel",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_steel",
+      "path": "~/Steel"
+    },
+    {
+      "name": "CompressedSteelCrafting",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_steel_crafting",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelManufacturing",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_manufacturing",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelDiscCrafting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_disc_crafting",
+      "path": "~/Steel"
+    },
+    {
+      "name": "CompressedArmour",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "MoltenSteel",
+      "type": "fluid",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molten_steel",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelBucketCrafting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_bucket_crafting",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelArmourHead",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armour_head",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelAdvancement1",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_advancement_1",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelLoot",
+      "type": "loottable",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_loot",
+      "path": "~/Steel"
+    },
+    {
+      "name": "SteelLab",
+      "type": "structure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_lab",
+      "path": "~/Steel"
+    },
+    {
+      "name": "TheScaryForest",
+      "type": "biome",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_scary_forest",
+      "path": "~/Dev Items"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ore",
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ingot",
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverIngotCrafting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ingot_crafting",
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_dust",
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverDustCrafting",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_dust_crafting",
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverProtection",
+      "type": "potion",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_protection",
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverProtectionPotion",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_protection_potion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilverPlate",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_plate",
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverishGold",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverish_gold",
+      "path": "~/Alloys"
+    },
+    {
+      "name": "SilverishGoldCrafting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverish_gold_crafting",
+      "path": "~/Alloys"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "steel_disc",
+      "files": [
+        "the_factory"
+      ],
+      "category": "record",
+      "subtitle": "A factory theme plays"
+    },
+    {
+      "name": "city_theme",
+      "files": [
+        "shap3s_-_swell"
+      ],
+      "category": "music",
+      "subtitle": "The city vibes are bringing you nostalgia"
+    },
+    {
+      "name": "scary_forest",
+      "files": [
+        "just_shapes_and_beats_volcano_ambience_extended"
+      ],
+      "category": "ambient",
+      "subtitle": "You feel an unconfortable presence watching you"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "effect.silver_protection": "Silver Protection",
+      "item.new_ores.compressed_steel": "Compressed Steel",
+      "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+      "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
+      "subtitles.steel_disc_sound": "A factory theme plays",
+      "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
+      "subtitles.steel_disc": "A factory theme plays",
+      "fluid.molten_steel": "MoltenSteel",
+      "subtitles.scary_forest": "You feel an unconfortable presence watching you",
+      "item.minecraft.lingering_potion.effect.silver_protection": "Lingering Silver Protection",
+      "block.new_ores.silver_ore": "Silver Ore",
+      "item.new_ores.steel_ingot": "Steel Ingot",
+      "item.new_ores.compressed_armour_helmet": "Compressed Steel Helmet",
+      "advancements.steel_advancement_1.title": "Steel Milestones",
+      "subtitles.steel_manufactoring": "Factory sounds in the distance",
+      "item.new_ores.silver_plate": "Silver Plate",
+      "item.new_ores.silverish_gold": "Silverish Gold",
+      "subtitles.city_theme": "The city vibes are bringing you nostalgia",
+      "item.new_ores.compressed_armour_boots": "Compressed Steel Boots",
+      "item.new_ores.silver_dust": "Silver Dust",
+      "block.new_ores.steel_block": "Steel Block",
+      "item.minecraft.potion.effect.silver_protection": "Silver Protection",
+      "item.new_ores.steel_nugget": "Steel Nugget",
+      "item.new_ores.silver_ingot": "Silver Ingot",
+      "item.new_ores.steel_manufacturing.desc": "Danimal Canon Remix - Factory Theme",
+      "item.new_ores.compressed_armour_chestplate": "Compressed Steel Chestplate",
+      "item.new_ores.molten_steel_bucket": "MoltenSteel Bucket",
+      "biome.new_ores.the_scary_forest": "The Scary Forest",
+      "item.new_ores.steel_manufacturing": "Steel Manufacturing",
+      "advancements.steel_advancement_1.descr": "Make your first steel ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Steel",
+        "children": []
+      },
+      {
+        "name": "GemsRuby",
+        "children": []
+      },
+      {
+        "name": "GemsSaphire",
+        "children": []
+      },
+      {
+        "name": "GemsAmber",
+        "children": []
+      },
+      {
+        "name": "GemsAmethyst",
+        "children": []
+      },
+      {
+        "name": "Titanium",
+        "children": []
+      },
+      {
+        "name": "Copper",
+        "children": []
+      },
+      {
+        "name": "Dev Items",
+        "children": []
+      },
+      {
+        "name": "Silver",
+        "children": []
+      },
+      {
+        "name": "Alloys",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "new_ores",
+    "modName": "New Ores",
+    "version": "1.0.0",
+    "author": "Flaviu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.newores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

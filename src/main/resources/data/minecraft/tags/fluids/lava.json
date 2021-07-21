@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "new_ores:molten_steel",
+    "new_ores:molten_steel_flowing"
+  ]
+}

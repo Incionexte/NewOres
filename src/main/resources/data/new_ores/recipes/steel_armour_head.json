@@ -1,0 +1,29 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:compressed_steel"
+    },
+    "1": {
+      "item": "new_ores:compressed_steel"
+    },
+    "2": {
+      "item": "new_ores:compressed_steel"
+    },
+    "3": {
+      "item": "new_ores:molten_steel"
+    },
+    "5": {
+      "item": "new_ores:molten_steel"
+    }
+  },
+  "result": {
+    "item": "new_ores:compressed_armour_helmet",
+    "count": 1
+  }
+}

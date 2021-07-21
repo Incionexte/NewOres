@@ -1,0 +1,21 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "MoltenSteel",
+    "textureStill": "molten_steel",
+    "textureFlowing": "steelmolten",
+    "luminosity": 20,
+    "density": 1800,
+    "viscosity": 4000,
+    "isGas": false,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "new_ores:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.steel_advancement_1.title"
+    },
+    "description": {
+      "translate": "advancements.steel_advancement_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steel_advancement_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "new_ores:steel_ingot",
+            "count": {
+              "min": 1,
+              "max": 9999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "new_ores:steel_nugget_crafting",
+      "new_ores:steel_ingor_crafting_nugget",
+      "new_ores:steel_block_crafting",
+      "new_ores:steel_ingot_crafting_block",
+      "new_ores:compressed_steel_crafting",
+      "new_ores:steel_disc_crafting",
+      "new_ores:steel_bucket_crafting"
+    ]
+  },
+  "parent": "minecraft:story/smelt_iron"
+}

@@ -1,0 +1,42 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "new_ores:steel_nugget"
+    },
+    "1": {
+      "item": "new_ores:steel_nugget"
+    },
+    "2": {
+      "item": "new_ores:steel_nugget"
+    },
+    "3": {
+      "item": "new_ores:steel_nugget"
+    },
+    "4": {
+      "item": "new_ores:steel_nugget"
+    },
+    "5": {
+      "item": "new_ores:steel_nugget"
+    },
+    "6": {
+      "item": "new_ores:steel_nugget"
+    },
+    "7": {
+      "item": "new_ores:steel_nugget"
+    },
+    "8": {
+      "item": "new_ores:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "new_ores:steel_ingot",
+    "count": 1
+  }
+}

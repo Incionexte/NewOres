@@ -1,0 +1,9 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "new_ores:silver_ore"
+  },
+  "result": "new_ores:silver_dust"
+}

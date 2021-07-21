@@ -1,0 +1,32 @@
+{
+  "steel_disc": {
+    "category": "record",
+    "subtitle": "subtitles.steel_disc",
+    "sounds": [
+      {
+        "name": "new_ores:the_factory",
+        "stream": true
+      }
+    ]
+  },
+  "city_theme": {
+    "category": "music",
+    "subtitle": "subtitles.city_theme",
+    "sounds": [
+      {
+        "name": "new_ores:shap3s_-_swell",
+        "stream": true
+      }
+    ]
+  },
+  "scary_forest": {
+    "category": "ambient",
+    "subtitle": "subtitles.scary_forest",
+    "sounds": [
+      {
+        "name": "new_ores:just_shapes_and_beats_volcano_ambience_extended",
+        "stream": false
+      }
+    ]
+  }
+}

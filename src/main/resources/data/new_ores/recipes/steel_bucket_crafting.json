@@ -1,0 +1,12 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "new_ores:steel_ingot"
+  },
+  "result": {
+    "item": "new_ores:molten_steel"
+  }
+}

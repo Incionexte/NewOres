@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "new_ores:block/steel_block"
+    }
+  }
+}

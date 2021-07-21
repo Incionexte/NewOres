@@ -1,0 +1,27 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "34 ",
+    "  8"
+  ],
+  "key": {
+    "1": {
+      "item": "new_ores:silver_plate"
+    },
+    "3": {
+      "item": "new_ores:silver_plate"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "8": {
+      "item": "new_ores:silver_dust"
+    }
+  },
+  "result": {
+    "item": "new_ores:silverish_gold",
+    "count": 1
+  }
+}
