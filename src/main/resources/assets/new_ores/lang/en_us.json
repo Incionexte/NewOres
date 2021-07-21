@@ -1,7 +1,8 @@
 {
   "effect.silver_protection": "Silver Protection",
-  "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
   "item.new_ores.compressed_steel": "Compressed Steel",
+  "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+  "block.new_ores.saphire_block": "Saphire Block",
   "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
   "subtitles.steel_disc_sound": "A factory theme plays",
   "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
