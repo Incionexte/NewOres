@@ -1,7 +1,7 @@
 {
   "effect.silver_protection": "Silver Protection",
-  "item.new_ores.compressed_steel": "Compressed Steel",
   "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+  "item.new_ores.compressed_steel": "Compressed Steel",
   "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
   "subtitles.steel_disc_sound": "A factory theme plays",
   "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
@@ -12,6 +12,7 @@
   "item.minecraft.lingering_potion.effect.silver_protection": "Lingering Silver Protection",
   "block.new_ores.silver_ore": "Silver Ore",
   "block.new_ores.titanium_ore": "Titanium Ore",
+  "item.new_ores.incionextes_dimension": "Flint And Steel",
   "item.new_ores.steel_ingot": "Steel Ingot",
   "item.new_ores.compressed_armour_helmet": "Compressed Steel Helmet",
   "advancements.steel_advancement_1.title": "Steel Milestones",
