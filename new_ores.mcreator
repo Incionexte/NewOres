@@ -383,6 +383,16 @@
       "ids": {},
       "registry_name": "titanium_ingot_crafting",
       "path": "~/Titanium"
+    },
+    {
+      "name": "AmethystGem",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_gem",
+      "path": "~/GemsAmethyst"
     }
   ],
   "variable_elements": [],
@@ -415,8 +425,8 @@
   "language_map": {
     "en_us": {
       "effect.silver_protection": "Silver Protection",
-      "item.new_ores.compressed_steel": "Compressed Steel",
       "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+      "item.new_ores.compressed_steel": "Compressed Steel",
       "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
@@ -436,6 +446,7 @@
       "item.new_ores.silver_dust": "Silver Dust",
       "block.new_ores.steel_block": "Steel Block",
       "item.minecraft.potion.effect.silver_protection": "Silver Protection",
+      "item.new_ores.amethyst_gem": "Amethyst Gem",
       "item.new_ores.steel_nugget": "Steel Nugget",
       "item.new_ores.silver_ingot": "Silver Ingot",
       "item.new_ores.steel_manufacturing.desc": "Danimal Canon Remix - Factory Theme",
