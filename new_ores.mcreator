@@ -333,6 +333,16 @@
       "ids": {},
       "registry_name": "ruby_gem",
       "path": "~/GemsRuby"
+    },
+    {
+      "name": "SaphireGem",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saphire_gem",
+      "path": "~/GemsSaphire"
     }
   ],
   "variable_elements": [],
@@ -365,11 +375,12 @@
   "language_map": {
     "en_us": {
       "effect.silver_protection": "Silver Protection",
-      "item.new_ores.compressed_steel": "Compressed Steel",
       "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+      "item.new_ores.compressed_steel": "Compressed Steel",
       "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
+      "item.new_ores.saphire_gem": "Saphire Gem",
       "subtitles.steel_disc": "A factory theme plays",
       "fluid.molten_steel": "MoltenSteel",
       "subtitles.scary_forest": "You feel an unconfortable presence watching you",
