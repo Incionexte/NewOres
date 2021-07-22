@@ -751,7 +751,7 @@
       "name": "RubyPowder",
       "type": "item",
       "sortid": 59,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ruby_powder",
@@ -849,6 +849,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "RubyPotionPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_potion_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyPotion",
+      "type": "potion",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_potion",
+      "path": "~/GemsRuby"
     }
   ],
   "variable_elements": [],
@@ -894,14 +921,16 @@
       "item.new_ores.saphire_gem": "Saphire Gem",
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.new_ores.steel_mechanism": "Steel Mechanism",
+      "item.minecraft.tipped_arrow.effect.ruby_potion": "Arrow of Ruby Potion",
       "item.new_ores.steel_gear": "Steel Gear",
+      "item.minecraft.splash_potion.effect.ruby_potion": "Splash Ruby Potion",
       "block.new_ores.titanium_ore": "Titanium Ore",
       "item.new_ores.incionextes_dimension": "Ruby Dust Spreader",
       "item.new_ores.oil_bucket": "Oil Bucket",
       "item.new_ores.steel_ingot": "Steel Ingot",
       "advancements.steel_advancement_1.title": "Steel Milestones",
-      "item.new_ores.silverish_gold": "Silverish Gold",
       "block.new_ores.silver_block": "Silver Block",
+      "item.new_ores.silverish_gold": "Silverish Gold",
       "item.new_ores.titanium_ingot": "Titanium Ingot",
       "subtitles.city_theme": "The city vibes are bringing you nostalgia",
       "biome.new_ores.sulfuric_ocean": "Sulfuric Ocean",
@@ -922,6 +951,7 @@
       "block.new_ores.ruby_block": "Ruby Block",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
       "block.new_ores.amber_block": "Amber Block",
+      "item.minecraft.lingering_potion.effect.ruby_potion": "Lingering Ruby Potion",
       "subtitles.steel_disc": "A factory theme plays",
       "item.new_ores.amber_gem": "Amber Gem",
       "enchantment.new_ores.ruby_enchantment": "Ruby Enchantment",
@@ -931,6 +961,7 @@
       "block.new_ores.silver_ore": "Silver Ore",
       "item.new_ores.reinforced_silver_plate": "Reinforced Silver Plate",
       "item.new_ores.steel_screws": "Steel Screws",
+      "effect.ruby_potion": "Ruby Potion",
       "item.new_ores.compressed_armour_helmet": "Compressed Steel Helmet",
       "block.new_ores.titanium_block": "Titanium Block",
       "item.new_ores.silver_plate": "Silver Plate",
@@ -938,6 +969,7 @@
       "item.new_ores.coalish_diamond": "Coalish Diamond",
       "item.new_ores.compressed_armour_boots": "Compressed Steel Boots",
       "item.new_ores.silver_dust": "Silver Dust",
+      "item.minecraft.potion.effect.ruby_potion": "Ruby Potion",
       "fluid.oil": "Oil",
       "item.new_ores.amethyst_gem": "Amethyst Gem",
       "item.new_ores.acid_bucket": "Acid Bucket",
