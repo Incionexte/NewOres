@@ -381,7 +381,7 @@
       "name": "IncionextesDimension",
       "type": "dimension",
       "sortid": 37,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "incionextes_dimension",
@@ -434,7 +434,7 @@
       "name": "SulfuricOcean",
       "type": "biome",
       "sortid": 40,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfuric_ocean",
@@ -746,6 +746,16 @@
         ]
       },
       "path": "~/Plastic"
+    },
+    {
+      "name": "RubyPowder",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_powder",
+      "path": "~/GemsRuby"
     }
   ],
   "variable_elements": [],
@@ -793,6 +803,7 @@
       "block.new_ores.titanium_ore": "Titanium Ore",
       "item.new_ores.incionextes_dimension": "Ruby Dust Spreader",
       "item.new_ores.steel_ingot": "Steel Ingot",
+      "item.new_ores.ruby_powder": "Ruby Powder",
       "advancements.steel_advancement_1.title": "Steel Milestones",
       "item.new_ores.silverish_gold": "Silverish Gold",
       "block.new_ores.silver_block": "Silver Block",
