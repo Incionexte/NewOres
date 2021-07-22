@@ -576,6 +576,16 @@
       "ids": {},
       "registry_name": "amber_block",
       "path": "~/GemsAmber"
+    },
+    {
+      "name": "AmethystBlock",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethyst_block",
+      "path": "~/GemsAmethyst"
     }
   ],
   "variable_elements": [],
@@ -620,6 +630,7 @@
       "item.new_ores.compressed_steel": "Compressed Steel",
       "block.new_ores.saphire_block": "Saphire Block",
       "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
+      "block.new_ores.amethyst_block": "Amethyst Block",
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
       "item.new_ores.saphire_gem": "Saphire Gem",
