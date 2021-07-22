@@ -1,12 +1,21 @@
 
 package net.mcreator.newores.enchantment;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.enchantment.EnchantmentType;
+import net.minecraft.enchantment.Enchantment;
+
+import net.mcreator.newores.NewOresModElements;
+
 @NewOresModElements.ModElement.Tag
 public class RubyEnchantmentEnchantment extends NewOresModElements.ModElement {
-
 	@ObjectHolder("new_ores:ruby_enchantment")
 	public static final Enchantment enchantment = null;
-
 	public RubyEnchantmentEnchantment(NewOresModElements instance) {
 		super(instance, 52);
 	}
@@ -15,9 +24,7 @@ public class RubyEnchantmentEnchantment extends NewOresModElements.ModElement {
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("ruby_enchantment"));
 	}
-
 	public static class CustomEnchantment extends Enchantment {
-
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.COMMON, EnchantmentType.WEAPON, slots);
 		}
@@ -34,10 +41,6 @@ public class RubyEnchantmentEnchantment extends NewOresModElements.ModElement {
 
 		@Override
 		protected boolean canApplyTogether(Enchantment ench) {
-			if (ench == Enchantments.POWER)
-				return true;
-			if (ench == Enchantments.MULTISHOT)
-				return true;
 			if (ench == Enchantments.KNOCKBACK)
 				return true;
 			return false;
@@ -72,7 +75,5 @@ public class RubyEnchantmentEnchantment extends NewOresModElements.ModElement {
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
-
 	}
-
 }

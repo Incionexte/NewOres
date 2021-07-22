@@ -46,7 +46,7 @@
           }
         },
         {
-          "biome": "new_ores:deleted_mod_element",
+          "biome": "new_ores:sulfuric_ocean",
           "parameters": {
             "temperature": -1,
             "humidity": 1,

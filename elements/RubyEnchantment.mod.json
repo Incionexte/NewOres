@@ -10,12 +10,6 @@
     "damageModifier": 0,
     "compatibleEnchantments": [
       {
-        "value": "POWER"
-      },
-      {
-        "value": "MULTISHOT"
-      },
-      {
         "value": "KNOCKBACK"
       }
     ],

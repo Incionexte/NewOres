@@ -4,12 +4,12 @@ package net.mcreator.newores.block;
 import net.minecraft.block.material.Material;
 
 @NewOresModElements.ModElement.Tag
-public class UraniumLiquidBlock extends NewOresModElements.ModElement {
+public class OilBlock extends NewOresModElements.ModElement {
 
-	@ObjectHolder("new_ores:uranium_liquid")
+	@ObjectHolder("new_ores:oil")
 	public static final FlowingFluidBlock block = null;
 
-	@ObjectHolder("new_ores:uranium_liquid_bucket")
+	@ObjectHolder("new_ores:oil_bucket")
 	public static final Item bucket = null;
 
 	public static FlowingFluid flowing = null;
@@ -17,7 +17,7 @@ public class UraniumLiquidBlock extends NewOresModElements.ModElement {
 
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 
-	public UraniumLiquidBlock(NewOresModElements instance) {
+	public OilBlock(NewOresModElements instance) {
 		super(instance, 55);
 
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
@@ -46,19 +46,18 @@ public class UraniumLiquidBlock extends NewOresModElements.ModElement {
 	@Override
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
-				FluidAttributes
-						.builder(new ResourceLocation("new_ores:blocks/uranium_liquid"), new ResourceLocation("new_ores:blocks/uranium_liquid2"))
-						.luminosity(0).density(1000).viscosity(1000)).bucket(() -> bucket).block(() -> block);
+				FluidAttributes.builder(new ResourceLocation("new_ores:blocks/oil_still"), new ResourceLocation("new_ores:blocks/oil_flow"))
+						.luminosity(0).density(1800).viscosity(400))
 
-		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("uranium_liquid");
-		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("uranium_liquid_flowing");
+								.block(() -> block);
+
+		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("oil");
+		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("oil_flowing");
 
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
 
-		}.setRegistryName("uranium_liquid"));
+		}.setRegistryName("oil"));
 
-		elements.items.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC))
-				.setRegistryName("uranium_liquid_bucket"));
 	}
 
 	private static Feature<BlockStateFeatureConfig> feature = null;
@@ -74,7 +73,9 @@ public class UraniumLiquidBlock extends NewOresModElements.ModElement {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
 
-					if (dimensionType == World.THE_NETHER)
+					if (dimensionType == World.THE_END)
+						dimensionCriteria = true;
+					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
 
 					if (!dimensionCriteria)
@@ -85,10 +86,10 @@ public class UraniumLiquidBlock extends NewOresModElements.ModElement {
 			};
 
 			configuredFeature = feature.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
-					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(5)));
+					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(3)));
 
-			event.getRegistry().register(feature.setRegistryName("uranium_liquid_lakes"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("new_ores:uranium_liquid_lakes"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("oil_lakes"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("new_ores:oil_lakes"), configuredFeature);
 		}
 
 	}

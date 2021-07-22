@@ -619,6 +619,133 @@
       "ids": {},
       "registry_name": "uranium_advencement_1",
       "path": "~/Uranium"
+    },
+    {
+      "name": "SteelGear",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_gear",
+      "path": "~/Steel"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "SteelMechanism",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_mechanism",
+      "path": "~/Steel"
+    },
+    {
+      "name": "OilBucket",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_bucket",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "CoalishDiamondCrafting",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalish_diamond_crafting",
+      "path": "~/Alloys"
+    },
+    {
+      "name": "Plastic",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastic",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "OilBucketRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_bucket_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OilBucketFilling",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_bucket_filling",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Plastic"
     }
   ],
   "variable_elements": [],
@@ -659,48 +786,56 @@
   "language_map": {
     "en_us": {
       "effect.silver_protection": "Silver Protection",
-      "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
       "item.new_ores.compressed_steel": "Compressed Steel",
-      "block.new_ores.saphire_block": "Saphire Block",
       "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
-      "subtitles.steel_disc_sound": "A factory theme plays",
       "item.new_ores.saphire_gem": "Saphire Gem",
+      "subtitles.steel_disc_sound": "A factory theme plays",
+      "block.new_ores.titanium_ore": "Titanium Ore",
+      "item.new_ores.incionextes_dimension": "Ruby Dust Spreader",
+      "item.new_ores.steel_ingot": "Steel Ingot",
+      "advancements.steel_advancement_1.title": "Steel Milestones",
+      "item.new_ores.silverish_gold": "Silverish Gold",
+      "block.new_ores.silver_block": "Silver Block",
+      "item.new_ores.titanium_ingot": "Titanium Ingot",
+      "subtitles.city_theme": "The city vibes are bringing you nostalgia",
+      "biome.new_ores.sulfuric_ocean": "Sulfuric Ocean",
+      "block.new_ores.steel_block": "Steel Block",
+      "item.minecraft.potion.effect.silver_protection": "Silver Protection",
+      "fluid.acid": "Acid",
+      "block.new_ores.reinforced_silver_block": "Reinforced Silver Block",
+      "subtitles.acidic_sea": "The toxic gases make you feel comfortable",
+      "item.new_ores.silver_ingot": "Silver Ingot",
+      "item.new_ores.molten_steel_bucket": "MoltenSteel Bucket",
+      "item.new_ores.steel_manufacturing": "Steel Manufacturing",
+      "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
+      "block.new_ores.saphire_block": "Saphire Block",
+      "block.new_ores.amethyst_block": "Amethyst Block",
+      "block.new_ores.ruby_block": "Ruby Block",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
-      "item.new_ores.uranium_liquid_bucket": "UraniumLiquid Bucket",
-      "fluid.uranium_liquid": "UraniumLiquid",
+      "block.new_ores.amber_block": "Amber Block",
       "subtitles.steel_disc": "A factory theme plays",
       "item.new_ores.amber_gem": "Amber Gem",
+      "enchantment.new_ores.ruby_enchantment": "Ruby Enchantment",
       "fluid.molten_steel": "MoltenSteel",
       "subtitles.scary_forest": "You feel an unconfortable presence watching you",
       "item.minecraft.lingering_potion.effect.silver_protection": "Lingering Silver Protection",
       "block.new_ores.silver_ore": "Silver Ore",
-      "block.new_ores.titanium_ore": "Titanium Ore",
-      "item.new_ores.steel_ingot": "Steel Ingot",
+      "item.new_ores.reinforced_silver_plate": "Reinforced Silver Plate",
+      "item.new_ores.steel_screws": "Steel Screws",
       "item.new_ores.compressed_armour_helmet": "Compressed Steel Helmet",
-      "advancements.steel_advancement_1.title": "Steel Milestones",
-      "subtitles.steel_manufactoring": "Factory sounds in the distance",
+      "block.new_ores.titanium_block": "Titanium Block",
       "item.new_ores.silver_plate": "Silver Plate",
-      "item.new_ores.silverish_gold": "Silverish Gold",
-      "item.new_ores.titanium_ingot": "Titanium Ingot",
-      "subtitles.city_theme": "The city vibes are bringing you nostalgia",
+      "subtitles.steel_manufactoring": "Factory sounds in the distance",
+      "item.new_ores.coalish_diamond": "Coalish Diamond",
       "item.new_ores.compressed_armour_boots": "Compressed Steel Boots",
       "item.new_ores.silver_dust": "Silver Dust",
-      "advancements.uranium_advencement_1.descr": "Acquire your first (radioactive) green stone!",
-      "block.new_ores.steel_block": "Steel Block",
-      "block.new_ores.uranium_ore": "Uranium Ore",
-      "item.new_ores.uranium": "Uranium",
-      "advancements.uranium_advencement_1.title": "Radiation(ing) Succes!",
       "item.new_ores.amethyst_gem": "Amethyst Gem",
-      "item.minecraft.potion.effect.silver_protection": "Silver Protection",
+      "item.new_ores.acid_bucket": "Acid Bucket",
       "item.new_ores.steel_nugget": "Steel Nugget",
       "item.new_ores.ruby_gem": "Ruby Gem",
-      "subtitles.acidic_sea": "The toxic gases make you feel comfortable",
-      "item.new_ores.silver_ingot": "Silver Ingot",
-      "item.new_ores.steel_manufacturing.desc": "Danimal Canon Remix - Factory Theme",
       "item.new_ores.compressed_armour_chestplate": "Compressed Steel Chestplate",
-      "item.new_ores.molten_steel_bucket": "MoltenSteel Bucket",
+      "item.new_ores.steel_manufacturing.desc": "Danimal Canon Remix - Factory Theme",
       "biome.new_ores.the_scary_forest": "The Scary Forest",
-      "item.new_ores.steel_manufacturing": "Steel Manufacturing",
       "advancements.steel_advancement_1.descr": "Make your first steel ingot"
     }
   },
@@ -709,6 +844,26 @@
     "children": [
       {
         "name": "Dev Items",
+        "children": []
+      },
+      {
+        "name": "Titanium",
+        "children": []
+      },
+      {
+        "name": "GemsAmber",
+        "children": []
+      },
+      {
+        "name": "VanityItems",
+        "children": []
+      },
+      {
+        "name": "Silver",
+        "children": []
+      },
+      {
+        "name": "Uranium",
         "children": []
       },
       {
@@ -728,15 +883,7 @@
         "children": []
       },
       {
-        "name": "Titanium",
-        "children": []
-      },
-      {
         "name": "Steel",
-        "children": []
-      },
-      {
-        "name": "GemsAmber",
         "children": []
       },
       {
@@ -744,15 +891,7 @@
         "children": []
       },
       {
-        "name": "VanityItems",
-        "children": []
-      },
-      {
-        "name": "Silver",
-        "children": []
-      },
-      {
-        "name": "Uranium",
+        "name": "Plastic",
         "children": []
       }
     ]
