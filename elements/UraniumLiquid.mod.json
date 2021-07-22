@@ -3,7 +3,7 @@
   "_type": "fluid",
   "definition": {
     "name": "UraniumLiquid",
-    "textureStill": "uranium_liquid",
+    "textureStill": "uranium_still",
     "textureFlowing": "uranium_liquid2",
     "luminosity": 0,
     "density": 1000,
@@ -14,7 +14,7 @@
     "creativeTab": {
       "value": "MISC"
     },
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Nether"
     ],
