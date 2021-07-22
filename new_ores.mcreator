@@ -757,7 +757,7 @@
       "name": "UraniumEffect",
       "type": "procedure",
       "sortid": 62,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "uranium_effect",
@@ -791,7 +791,7 @@
       "name": "UraniumOreBlockAdded",
       "type": "procedure",
       "sortid": 61,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "uranium_ore_block_added",
@@ -839,6 +839,43 @@
       "ids": {},
       "registry_name": "uranium_advencement_1",
       "path": "~/Uranium"
+    },
+    {
+      "name": "RubyPotionPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_potion_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyPotion",
+      "type": "potion",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_potion",
+      "path": "~/GemsRuby"
+    },
+    {
+      "name": "RubyPowder",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_powder",
+      "path": "~/GemsRuby"
     }
   ],
   "variable_elements": [],
@@ -891,8 +928,8 @@
       "item.new_ores.steel_ingot": "Steel Ingot",
       "advancements.steel_advancement_1.title": "Steel Milestones",
       "block.new_ores.copper_ore": "Copper Ore",
-      "item.new_ores.silverish_gold": "Silverish Gold",
       "block.new_ores.silver_block": "Silver Block",
+      "item.new_ores.silverish_gold": "Silverish Gold",
       "item.new_ores.plastic_armour_boots": "Plastic Boots",
       "item.new_ores.titanium_ingot": "Titanium Ingot",
       "item.new_ores.plastic_armour_chestplate": "Plastic Chestplate",
