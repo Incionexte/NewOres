@@ -41,11 +41,11 @@ import java.util.List;
 import java.util.Collections;
 
 @NewOresModElements.ModElement.Tag
-public class UraniumOreBlock extends NewOresModElements.ModElement {
-	@ObjectHolder("new_ores:uranium_ore")
+public class CopperOreBlock extends NewOresModElements.ModElement {
+	@ObjectHolder("new_ores:copper_ore")
 	public static final Block block = null;
-	public UraniumOreBlock(NewOresModElements instance) {
-		super(instance, 53);
+	public CopperOreBlock(NewOresModElements instance) {
+		super(instance, 60);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -58,8 +58,8 @@ public class UraniumOreBlock extends NewOresModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("uranium_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0));
+			setRegistryName("copper_ore");
 		}
 
 		@Override
@@ -91,23 +91,23 @@ public class UraniumOreBlock extends NewOresModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("new_ores:uranium_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("new_ores:copper_ore_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == World.THE_NETHER)
+					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 20)).range(256)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(100)
 					.square().func_242731_b(7);
-			event.getRegistry().register(feature.setRegistryName("uranium_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("new_ores:uranium_ore"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("copper_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("new_ores:copper_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
