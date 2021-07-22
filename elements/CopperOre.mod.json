@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "uranium_ore",
+    "texture": "copper_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Uranium Ore",
+    "name": "Copper Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 3.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -102,7 +102,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Nether"
+      "Surface"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
@@ -111,8 +111,8 @@
       }
     ],
     "frequencyPerChunks": 7,
-    "frequencyOnChunk": 20,
-    "minGenerateHeight": 2,
-    "maxGenerateHeight": 256
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 17,
+    "maxGenerateHeight": 100
   }
 }
