@@ -381,7 +381,7 @@
       "name": "IncionextesDimension",
       "type": "dimension",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "incionextes_dimension",
@@ -434,7 +434,7 @@
       "name": "SulfuricOcean",
       "type": "biome",
       "sortid": 40,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfuric_ocean",
@@ -579,6 +579,26 @@
       "ids": {},
       "registry_name": "ruby_enchantment",
       "path": "~/GemsRuby"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_ore",
+      "path": "~/Uranium"
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium",
+      "path": "~/Uranium"
     }
   ],
   "variable_elements": [],
@@ -644,6 +664,8 @@
       "item.new_ores.compressed_armour_boots": "Compressed Steel Boots",
       "item.new_ores.silver_dust": "Silver Dust",
       "block.new_ores.steel_block": "Steel Block",
+      "block.new_ores.uranium_ore": "Uranium Ore",
+      "item.new_ores.uranium": "Uranium",
       "item.new_ores.amethyst_gem": "Amethyst Gem",
       "item.minecraft.potion.effect.silver_protection": "Silver Protection",
       "item.new_ores.steel_nugget": "Steel Nugget",
@@ -703,6 +725,10 @@
       },
       {
         "name": "Silver",
+        "children": []
+      },
+      {
+        "name": "Uranium",
         "children": []
       }
     ]

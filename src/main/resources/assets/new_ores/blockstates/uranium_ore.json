@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "new_ores:block/uranium_ore"
+    }
+  }
+}
