@@ -49,6 +49,7 @@ public class NewOresModElements {
 		sounds.put(new ResourceLocation("new_ores", "city_theme"), new net.minecraft.util.SoundEvent(new ResourceLocation("new_ores", "city_theme")));
 		sounds.put(new ResourceLocation("new_ores", "scary_forest"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("new_ores", "scary_forest")));
+		sounds.put(new ResourceLocation("new_ores", "acidic_sea"), new net.minecraft.util.SoundEvent(new ResourceLocation("new_ores", "acidic_sea")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("new_ores").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

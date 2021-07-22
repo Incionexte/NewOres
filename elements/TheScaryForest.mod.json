@@ -43,7 +43,7 @@
       "value": "DRAGON_BREATH"
     },
     "particlesProbability": 5.2,
-    "biomeCategory": "NONE",
+    "biomeCategory": "NETHER",
     "parent": {
       "value": "No parent"
     },
@@ -53,9 +53,9 @@
     "heightVariation": 0.4,
     "biomeType": "WARM",
     "spawnBiome": true,
-    "biomeWeight": 7,
+    "biomeWeight": 5,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 6,
+    "grassPerChunk": 8,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 4,
@@ -64,10 +64,10 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 6,
-    "vanillaTreeType": "Big trees",
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Mega pine trees",
     "treeType": 1,
-    "minHeight": 10,
+    "minHeight": 7,
     "maxWaterDepth": 4,
     "treeStem": {
       "value": "Blocks.CRIMSON_STEM"
@@ -76,10 +76,10 @@
       "value": "Blocks.SOUL_SAND"
     },
     "treeVines": {
-      "value": "Blocks.WEB"
+      "value": "Blocks.WEEPING_VINES_PLANT"
     },
     "treeFruits": {
-      "value": "Blocks.CHORUS_FLOWER"
+      "value": "Blocks.REDSTONE_BLOCK"
     },
     "spawnStronghold": false,
     "spawnMineshaft": true,
@@ -103,18 +103,18 @@
         "entity": {
           "value": "EntityEnderman"
         },
-        "minGroup": 3,
-        "maxGroup": 7,
-        "weight": 38,
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 14,
         "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntitySilverfish"
         },
-        "minGroup": 2,
-        "maxGroup": 8,
-        "weight": 28,
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 12,
         "spawnType": "ambient"
       },
       {
@@ -122,8 +122,8 @@
           "value": "EntityRavager"
         },
         "minGroup": 1,
-        "maxGroup": 3,
-        "weight": 13,
+        "maxGroup": 1,
+        "weight": 9,
         "spawnType": "ambient"
       },
       {
@@ -131,18 +131,9 @@
           "value": "EntityVindicator"
         },
         "minGroup": 1,
-        "maxGroup": 2,
+        "maxGroup": 1,
         "weight": 8,
         "spawnType": "ambient"
-      },
-      {
-        "entity": {
-          "value": "EntityAgeable"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
       }
     ]
   }

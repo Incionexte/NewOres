@@ -1,0 +1,130 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Sulfuric Ocean",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#1"
+    },
+    "airColor": {
+      "value": -13217479,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16711900,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16711782,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16739239,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:acidic_sea"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "VILLAGER_HAPPY"
+    },
+    "particlesProbability": 3.0,
+    "biomeCategory": "NETHER",
+    "parent": {
+      "value": "CUSTOM:TheScaryForest"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 0.9,
+    "baseHeight": 0.30000000000000004,
+    "heightVariation": 0.1,
+    "biomeType": "WARM",
+    "spawnBiome": false,
+    "biomeWeight": 6,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 5,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 5,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 6,
+    "maxWaterDepth": 13,
+    "treeStem": {
+      "value": "Blocks.STRIPPED_WARPED_HYPHAE"
+    },
+    "treeBranch": {
+      "value": "Blocks.SLIME_BLOCK"
+    },
+    "treeVines": {
+      "value": "Blocks.TWISTING_VINES"
+    },
+    "treeFruits": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "ExtraEmeraldOre",
+      "InfestedStone"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityDrowned"
+        },
+        "minGroup": 1,
+        "maxGroup": 5,
+        "weight": 10,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntitySlime"
+        },
+        "minGroup": 2,
+        "maxGroup": 6,
+        "weight": 10,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityPhantom"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 2,
+        "spawnType": "ambient"
+      }
+    ]
+  }
+}

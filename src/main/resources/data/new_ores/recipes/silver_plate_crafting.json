@@ -1,0 +1,9 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "new_ores:silver_ingot"
+  },
+  "result": "new_ores:silver_plate"
+}

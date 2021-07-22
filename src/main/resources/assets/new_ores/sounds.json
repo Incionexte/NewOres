@@ -28,5 +28,15 @@
         "stream": false
       }
     ]
+  },
+  "acidic_sea": {
+    "category": "ambient",
+    "subtitle": "subtitles.acidic_sea",
+    "sounds": [
+      {
+        "name": "new_ores:terraria_calamity_mod_music_-_wasteland_-_theme_of_the_sulphurous_sea",
+        "stream": false
+      }
+    ]
   }
 }

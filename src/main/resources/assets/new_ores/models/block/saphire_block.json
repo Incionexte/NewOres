@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "new_ores:blocks/saphire_block",
-    "particle": "new_ores:blocks/saphire_block"
+    "all": "new_ores:blocks/saphire_gem_ore",
+    "particle": "new_ores:blocks/saphire_gem_ore"
   }
 }
