@@ -388,7 +388,7 @@
       "name": "AmethystGem",
       "type": "item",
       "sortid": 35,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "amethyst_gem",
@@ -398,7 +398,7 @@
       "name": "AmberGem",
       "type": "item",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "amber_gem",
@@ -413,6 +413,16 @@
       "ids": {},
       "registry_name": "saphire_block",
       "path": "~/GemsSaphire"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block",
+      "path": "~/GemsRuby"
     }
   ],
   "variable_elements": [],
@@ -449,6 +459,7 @@
       "item.new_ores.compressed_armour_leggings": "Compressed Steel Leggings",
       "block.new_ores.saphire_block": "Saphire Block",
       "item.minecraft.tipped_arrow.effect.silver_protection": "Arrow of Silver Protection",
+      "block.new_ores.ruby_block": "Ruby Block",
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
       "item.new_ores.saphire_gem": "Saphire Gem",
