@@ -599,6 +599,26 @@
       "ids": {},
       "registry_name": "uranium",
       "path": "~/Uranium"
+    },
+    {
+      "name": "UraniumLiquid",
+      "type": "fluid",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_liquid",
+      "path": "~/Uranium"
+    },
+    {
+      "name": "UraniumAdvencement1",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_advencement_1",
+      "path": "~/Uranium"
     }
   ],
   "variable_elements": [],
@@ -646,6 +666,8 @@
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.new_ores.saphire_gem": "Saphire Gem",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
+      "item.new_ores.uranium_liquid_bucket": "UraniumLiquid Bucket",
+      "fluid.uranium_liquid": "UraniumLiquid",
       "subtitles.steel_disc": "A factory theme plays",
       "item.new_ores.amber_gem": "Amber Gem",
       "fluid.molten_steel": "MoltenSteel",
@@ -663,9 +685,11 @@
       "subtitles.city_theme": "The city vibes are bringing you nostalgia",
       "item.new_ores.compressed_armour_boots": "Compressed Steel Boots",
       "item.new_ores.silver_dust": "Silver Dust",
+      "advancements.uranium_advencement_1.descr": "Acquire your first (radioactive) green stone!",
       "block.new_ores.steel_block": "Steel Block",
       "block.new_ores.uranium_ore": "Uranium Ore",
       "item.new_ores.uranium": "Uranium",
+      "advancements.uranium_advencement_1.title": "Radiation(ing) Succes!",
       "item.new_ores.amethyst_gem": "Amethyst Gem",
       "item.minecraft.potion.effect.silver_protection": "Silver Protection",
       "item.new_ores.steel_nugget": "Steel Nugget",

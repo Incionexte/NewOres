@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "new_ores:uranium_liquid",
+    "new_ores:uranium_liquid_flowing"
+  ]
 }
