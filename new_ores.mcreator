@@ -498,7 +498,7 @@
       "name": "IncionextesDimension",
       "type": "dimension",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "incionextes_dimension",
@@ -531,7 +531,7 @@
       "name": "SulfuricOcean",
       "type": "biome",
       "sortid": 40,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfuric_ocean",
@@ -566,6 +566,16 @@
       "ids": {},
       "registry_name": "silver_ingot_crafting_plate",
       "path": "~/Silver"
+    },
+    {
+      "name": "AmberBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amber_block",
+      "path": "~/GemsAmber"
     }
   ],
   "variable_elements": [],
@@ -613,6 +623,7 @@
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
       "item.new_ores.saphire_gem": "Saphire Gem",
+      "block.new_ores.amber_block": "Amber Block",
       "subtitles.steel_disc": "A factory theme plays",
       "item.new_ores.amber_gem": "Amber Gem",
       "fluid.molten_steel": "MoltenSteel",
