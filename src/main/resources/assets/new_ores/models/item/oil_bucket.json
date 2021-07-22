@@ -1,6 +1,5 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "new_ores:items/oil_bucket"
-  }
+  "parent": "forge:item/bucket_drip",
+  "loader": "forge:bucket",
+  "fluid": "new_ores:oil"
 }

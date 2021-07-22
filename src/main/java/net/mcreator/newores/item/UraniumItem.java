@@ -2,12 +2,12 @@
 package net.mcreator.newores.item;
 
 @NewOresModElements.ModElement.Tag
-public class SteelGearItem extends NewOresModElements.ModElement {
+public class UraniumItem extends NewOresModElements.ModElement {
 
-	@ObjectHolder("new_ores:steel_gear")
+	@ObjectHolder("new_ores:uranium")
 	public static final Item block = null;
 
-	public SteelGearItem(NewOresModElements instance) {
+	public UraniumItem(NewOresModElements instance) {
 		super(instance, 54);
 
 	}
@@ -20,8 +20,8 @@ public class SteelGearItem extends NewOresModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.REDSTONE).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("steel_gear");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("uranium");
 		}
 
 		@Override
