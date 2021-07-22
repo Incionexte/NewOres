@@ -586,6 +586,16 @@
       "ids": {},
       "registry_name": "amethyst_block",
       "path": "~/GemsAmethyst"
+    },
+    {
+      "name": "RubyEnchantment",
+      "type": "enchantment",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_enchantment",
+      "path": "~/GemsRuby"
     }
   ],
   "variable_elements": [],
@@ -637,6 +647,7 @@
       "block.new_ores.amber_block": "Amber Block",
       "subtitles.steel_disc": "A factory theme plays",
       "item.new_ores.amber_gem": "Amber Gem",
+      "enchantment.new_ores.ruby_enchantment": "Ruby Enchantment",
       "fluid.molten_steel": "MoltenSteel",
       "subtitles.scary_forest": "You feel an unconfortable presence watching you",
       "item.minecraft.lingering_potion.effect.silver_protection": "Lingering Silver Protection",
