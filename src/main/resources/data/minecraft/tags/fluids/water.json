@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "new_ores:oil",
-    "new_ores:oil_flowing"
+    "new_ores:oil_flowing",
+    "new_ores:uranium_liquid",
+    "new_ores:uranium_liquid_flowing"
   ]
 }

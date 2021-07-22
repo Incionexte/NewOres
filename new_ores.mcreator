@@ -728,6 +728,16 @@
       "path": "~/Uranium"
     },
     {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore",
+      "path": "~/Copper"
+    },
+    {
       "name": "PlasticArmour",
       "type": "armor",
       "sortid": 59,
@@ -744,14 +754,38 @@
       "path": "~/Plastic"
     },
     {
-      "name": "CopperOre",
-      "type": "block",
-      "sortid": 60,
+      "name": "UraniumEffect",
+      "type": "procedure",
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_ore",
-      "path": "~/Copper"
+      "registry_name": "uranium_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Uranium"
     },
     {
       "name": "UraniumOreBlockAdded",
@@ -787,37 +821,23 @@
       }
     },
     {
-      "name": "UraniumEffect",
-      "type": "procedure",
-      "sortid": 62,
+      "name": "UraniumLiquid",
+      "type": "fluid",
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "uranium_effect",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
+      "registry_name": "uranium_liquid",
+      "path": "~/Uranium"
+    },
+    {
+      "name": "UraniumAdvencement1",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uranium_advencement_1",
       "path": "~/Uranium"
     }
   ],
@@ -870,12 +890,9 @@
       "item.new_ores.oil_bucket": "Oil Bucket",
       "item.new_ores.steel_ingot": "Steel Ingot",
       "advancements.steel_advancement_1.title": "Steel Milestones",
-      "block.new_ores.copper_ore": "Copper Ore",
       "item.new_ores.silverish_gold": "Silverish Gold",
       "block.new_ores.silver_block": "Silver Block",
-      "item.new_ores.plastic_armour_boots": "Plastic Boots",
       "item.new_ores.titanium_ingot": "Titanium Ingot",
-      "item.new_ores.plastic_armour_chestplate": "Plastic Chestplate",
       "subtitles.city_theme": "The city vibes are bringing you nostalgia",
       "biome.new_ores.sulfuric_ocean": "Sulfuric Ocean",
       "block.new_ores.steel_block": "Steel Block",
@@ -895,7 +912,6 @@
       "block.new_ores.ruby_block": "Ruby Block",
       "item.minecraft.splash_potion.effect.silver_protection": "Splash Silver Protection",
       "block.new_ores.amber_block": "Amber Block",
-      "item.new_ores.plastic_armour_helmet": "Plastic Helmet",
       "subtitles.steel_disc": "A factory theme plays",
       "item.new_ores.amber_gem": "Amber Gem",
       "enchantment.new_ores.ruby_enchantment": "Ruby Enchantment",
@@ -914,7 +930,6 @@
       "item.new_ores.silver_dust": "Silver Dust",
       "fluid.oil": "Oil",
       "item.new_ores.amethyst_gem": "Amethyst Gem",
-      "item.new_ores.plastic_armour_leggings": "Plastic Leggings",
       "item.new_ores.acid_bucket": "Acid Bucket",
       "item.new_ores.steel_nugget": "Steel Nugget",
       "item.new_ores.ruby_gem": "Ruby Gem",

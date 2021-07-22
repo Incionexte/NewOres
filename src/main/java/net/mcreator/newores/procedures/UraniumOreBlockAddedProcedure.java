@@ -1,22 +1,11 @@
 package net.mcreator.newores.procedures;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.newores.block.UraniumOreBlock;
-import net.mcreator.newores.NewOresModElements;
-import net.mcreator.newores.NewOresMod;
-
-import java.util.Map;
-
 @NewOresModElements.ModElement.Tag
 public class UraniumOreBlockAddedProcedure extends NewOresModElements.ModElement {
+
 	public UraniumOreBlockAddedProcedure(NewOresModElements instance) {
 		super(instance, 61);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -45,11 +34,13 @@ public class UraniumOreBlockAddedProcedure extends NewOresModElements.ModElement
 				NewOresMod.LOGGER.warn("Failed to load dependency world for procedure UraniumOreBlockAdded!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		boolean found = false;
 		double sx = 0;
 		double sy = 0;
@@ -75,5 +66,7 @@ public class UraniumOreBlockAddedProcedure extends NewOresModElements.ModElement
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 80, (int) 2, (false), (false)));
 		}
+
 	}
+
 }
