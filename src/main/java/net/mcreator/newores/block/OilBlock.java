@@ -28,10 +28,7 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -45,16 +42,16 @@ import net.mcreator.newores.NewOresModElements;
 import java.util.Random;
 
 @NewOresModElements.ModElement.Tag
-public class AcidBlock extends NewOresModElements.ModElement {
-	@ObjectHolder("new_ores:acid")
+public class OilBlock extends NewOresModElements.ModElement {
+	@ObjectHolder("new_ores:oil")
 	public static final FlowingFluidBlock block = null;
-	@ObjectHolder("new_ores:acid_bucket")
+	@ObjectHolder("new_ores:oil_bucket")
 	public static final Item bucket = null;
 	public static FlowingFluid flowing = null;
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
-	public AcidBlock(NewOresModElements instance) {
-		super(instance, 40);
+	public OilBlock(NewOresModElements instance) {
+		super(instance, 55);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
@@ -76,14 +73,12 @@ public class AcidBlock extends NewOresModElements.ModElement {
 	@Override
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
-				FluidAttributes.builder(new ResourceLocation("new_ores:blocks/acid_flow"), new ResourceLocation("new_ores:blocks/acid_still"))
-						.luminosity(0).density(1200).viscosity(1000)).bucket(() -> bucket).block(() -> block);
-		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("acid");
-		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("acid_flowing");
-		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.LAVA)) {
-		}.setRegistryName("acid"));
-		elements.items.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(ItemGroup.MISC))
-				.setRegistryName("acid_bucket"));
+				FluidAttributes.builder(new ResourceLocation("new_ores:blocks/oil_still"), new ResourceLocation("new_ores:blocks/oil_flow"))
+						.luminosity(0).density(1800).viscosity(400)).block(() -> block);
+		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("oil");
+		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("oil_flowing");
+		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
+		}.setRegistryName("oil"));
 	}
 	private static Feature<BlockStateFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
@@ -95,7 +90,9 @@ public class AcidBlock extends NewOresModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, BlockStateFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("new_ores:incionextes_dimension")))
+					if (dimensionType == World.THE_END)
+						dimensionCriteria = true;
+					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
@@ -103,9 +100,9 @@ public class AcidBlock extends NewOresModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
-					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(1)));
-			event.getRegistry().register(feature.setRegistryName("acid_lakes"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("new_ores:acid_lakes"), configuredFeature);
+					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(3)));
+			event.getRegistry().register(feature.setRegistryName("oil_lakes"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("new_ores:oil_lakes"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

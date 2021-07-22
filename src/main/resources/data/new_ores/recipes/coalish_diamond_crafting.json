@@ -1,0 +1,9 @@
+{
+  "group": "new_ores",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:coal_block"
+  },
+  "result": "new_ores:coalish_diamond"
+}

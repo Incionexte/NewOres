@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.newores.NewOresModElements;
 
 @NewOresModElements.ModElement.Tag
-public class SteelScrewsItem extends NewOresModElements.ModElement {
-	@ObjectHolder("new_ores:steel_screws")
+public class PlasticItem extends NewOresModElements.ModElement {
+	@ObjectHolder("new_ores:plastic")
 	public static final Item block = null;
-	public SteelScrewsItem(NewOresModElements instance) {
-		super(instance, 41);
+	public PlasticItem(NewOresModElements instance) {
+		super(instance, 58);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class SteelScrewsItem extends NewOresModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("steel_screws");
+			setRegistryName("plastic");
 		}
 
 		@Override
