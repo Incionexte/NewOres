@@ -381,7 +381,7 @@
       "name": "IncionextesDimension",
       "type": "dimension",
       "sortid": 37,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "incionextes_dimension",
@@ -434,7 +434,7 @@
       "name": "SulfuricOcean",
       "type": "biome",
       "sortid": 40,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfuric_ocean",
@@ -876,6 +876,46 @@
       "ids": {},
       "registry_name": "ruby_powder",
       "path": "~/GemsRuby"
+    },
+    {
+      "name": "PlatinumBlock",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_block",
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ore",
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumNugget",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_nugget",
+      "path": "~/Platinum"
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ingot",
+      "path": "~/Platinum"
     }
   ],
   "variable_elements": [],
@@ -921,6 +961,8 @@
       "item.new_ores.saphire_gem": "Saphire Gem",
       "subtitles.steel_disc_sound": "A factory theme plays",
       "item.new_ores.steel_mechanism": "Steel Mechanism",
+      "block.new_ores.platinum_block": "Platinum Block",
+      "item.new_ores.platinum_nugget": "Platinum Nugget",
       "item.new_ores.steel_gear": "Steel Gear",
       "block.new_ores.titanium_ore": "Titanium Ore",
       "item.new_ores.incionextes_dimension": "Ruby Dust Spreader",
@@ -931,6 +973,7 @@
       "block.new_ores.silver_block": "Silver Block",
       "item.new_ores.silverish_gold": "Silverish Gold",
       "item.new_ores.plastic_armour_boots": "Plastic Boots",
+      "block.new_ores.platinum_ore": "Platinum Ore",
       "item.new_ores.titanium_ingot": "Titanium Ingot",
       "item.new_ores.plastic_armour_chestplate": "Plastic Chestplate",
       "subtitles.city_theme": "The city vibes are bringing you nostalgia",
@@ -956,6 +999,7 @@
       "item.new_ores.plastic_armour_helmet": "Plastic Helmet",
       "fluid.uranium_liquid": "UraniumLiquid",
       "subtitles.steel_disc": "A factory theme plays",
+      "item.new_ores.platinum_ingot": "Platinum Ingot",
       "item.new_ores.amber_gem": "Amber Gem",
       "enchantment.new_ores.ruby_enchantment": "Ruby Enchantment",
       "fluid.molten_steel": "MoltenSteel",
@@ -1015,7 +1059,15 @@
         "children": []
       },
       {
+        "name": "Platinum",
+        "children": []
+      },
+      {
         "name": "GemsSaphire",
+        "children": []
+      },
+      {
+        "name": "HydraulicPress",
         "children": []
       },
       {
@@ -1036,10 +1088,6 @@
       },
       {
         "name": "Plastic",
-        "children": []
-      },
-      {
-        "name": "HydraulicPress",
         "children": []
       }
     ]
